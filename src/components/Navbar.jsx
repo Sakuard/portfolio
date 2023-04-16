@@ -20,8 +20,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white font-bold cursor-pointer text-[18px">
-              Matt <span className='sm:block hidden'>| Full Stack Developer</span>
+            <p className="text-white font-bold cursor-pointer text-[18px] flex">
+              Matt &nbsp;<span className='sm:block hidden'>| Full Stack Developer</span>
             </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
